@@ -34,6 +34,11 @@ public class Employee {
 		em.empPhone();
 		em.empEmail();
 		em.empAddress();
+		em.salary();
+	}
+	private void salary() {
+		System.out.println("Salary is 78553");
+
 	}
 	
 	
